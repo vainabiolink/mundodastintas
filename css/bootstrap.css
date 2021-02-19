@@ -51,15 +51,25 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-image: url("../img/bkg-Desktop.png");
-  /*background-color: #fff;*/
+  /*background-color: #8854d0;*/
+  background-image: linear-gradient(#8854d0, #a55eea, #D6A2E8);
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
+  /*background-color: #6c5ce7;*/
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 @media(max-width: 800px){
   body{
-    background-image: url("../img/bkg-mobile.png");
+    background-image: linear-gradient(#8854d0, #a55eea, #D6A2E8);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-color: #8854d0;*/
+    
   }
 }
 
@@ -478,6 +488,9 @@ progress {
 .espaco{
   height: 50px;
 }
+.espaco_footer{
+  height: 450px;
+}
 .celula1{
   max-height: 100px;
 }
@@ -496,7 +509,7 @@ progress {
   max-height: 50px;
 }
 .celula-link{
-  background-color: #40a62a;
+  background-color: #be2edd;
   max-width: 300px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -508,7 +521,7 @@ progress {
 
 }
 .celula-link:hover{
-  background-color: #55d439;
+  background-color: #e056fd;
   box-shadow: 1px 1px 10px rgb(150, 150, 150);
   transition: all .4s;
 }
@@ -521,7 +534,7 @@ progress {
   box-shadow: 1px 1px 5px black;
   margin-left: 5px;
   margin-right: 5px;
-
+  filter: hue-rotate(160deg);
 }
 
 .icone-contato:hover{
