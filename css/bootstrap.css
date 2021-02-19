@@ -51,10 +51,13 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  /*background-color: #8854d0;*/
-  background-image: linear-gradient(#8854d0, #a55eea, #D6A2E8);
+  /*background-color: #8854d0
+  background-image: linear-gradient(#613b96, #965de7);
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
+  background: rgb(136,84,208);
+  background: linear-gradient(43deg, rgba(136,84,208,1) 0%, rgba(199,69,252,1) 70%);
+
   
   
   /*background-color: #6c5ce7;*/
@@ -64,8 +67,7 @@ body {
 
 @media(max-width: 800px){
   body{
-    background-image: linear-gradient(#8854d0, #a55eea, #D6A2E8);
-    background-size: auto;
+    background-image: linear-gradient(#613b96, #965de7);
     background-repeat: no-repeat;
     background-position: center;
     /*background-color: #8854d0;*/
