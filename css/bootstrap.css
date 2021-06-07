@@ -55,8 +55,10 @@ body {
   background-image: linear-gradient(#613b96, #965de7);
   background-position: center;
   background-repeat: no-repeat;*/
-  background: rgb(136,84,208);
-  background: linear-gradient(43deg, rgba(136,84,208,1) 0%, rgba(199,69,252,1) 70%);
+  /*background: rgb(136,84,208);
+  background: linear-gradient(43deg, rgba(136,84,208,1) 0%, rgba(199,69,252,1) 70%);*/
+  background: rgb(64,77,91);
+  background: linear-gradient(45deg, rgba(64,77,91,1) 0%, rgba(73,88,104,1) 46%, rgba(255,255,255,1) 100%);
 
   
   
